@@ -9,7 +9,15 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#38b9e4',
+        secondary: '#f9a033',
+      }
+    },
+    fontFamily: {
+      'sans': ['Noto Sans JP', 'sans-serif']
+    },
   },
   variants: {
     extend: {},
